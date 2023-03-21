@@ -25,7 +25,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
     | :------------- | :------------- |
     | AD160_XXX <br> where XXX is the user number <br> like AD160_000, AD160_001 etc.       | Acce$$teched22     |
     
-<br>![<b>1.</b>In the <b>Lobby</b>, choose <b>Create</b>.]<br>The lobby is a central page for creating, accessing, and managing your projects in SAP Build. You can access business application processes, company configured templates, and other resources for your end-to-end business process.has context menu(./images/1.png)
+<br>![<b>1.</b>In the <b>Lobby</b>, choose <b>Create</b>.]<br>The lobby is a central page for creating, accessing, and managing your projects in SAP Build. You can access business application processes, company configured templates, and other resources for your end-to-end business process.has context menu[Image]/images/1.png
 <br>![<b>2.</b> Pick <b>build an Automated Process</b>](C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\2.png)
 <br>![<b>3.</b> Select <b>Buisness Process</b>]<br>Business Process Projects are a collection of skills in SAP Build Process Automation. Projects are part of the internal business processes of a company and are defined based on business scenarios. A project can contain a set of processes, forms, automations and decisions, which are reusable artifacts(C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\3.png)
 <br>![<b>4.</b> In the <b>Create a Buisness Process</b> dialog box, do the following:]<br>
