@@ -390,11 +390,10 @@ With this process condition, only the sales order above a specific amount will b
   6. Configure the <b>General section</b>. Under Subject:
   <ul>
   <li>Enter: Your order</li>
-  <li>Choose:<b>Order Number</b> from Order Processing For</li>
   <li>Choose:<b>Order Number</b> from Order Processing Form</li>
   <li>Enter:<b>has been successfully received</b> </li>
 </ul><br>
-Under <b>Recipients</b> Enter your login credentials(emailID)<br>
+   Under Recipients Enter your login credentials(emailID)<br>
   <img src="./images/41.png"><br><br>
   7. Configure the <b>Inputs</b> section.
 <table>
