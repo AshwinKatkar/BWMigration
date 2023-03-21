@@ -55,7 +55,7 @@ Inside a project, you can create a process. This process is equivalent to a work
 <img src="./images/6.png"><br><br>
 2. Create a datatype <b>Sales Order</b><br>
 <img src="./images/7.png"><br><br>
-3. Click on <b>New Field</b> to add new fields to the datatype <b>Sales Order.</b><br>
+3. Click on <b>New Field</b> to add new fields to the datatype <b>Sales Order.</b><br><br>
 <img src="./images/8.png"><br><br>
 4. Repeat the process to add all the fields of the type as shown below.<br>
 <table>
@@ -99,11 +99,32 @@ Inside a project, you can create a process. This process is equivalent to a work
     <td>division</td>
     <td>String</td>
   </tr>
-</table>
+</table><br>
   Your final data type looks as below.<br>
   <img src="./images/9.png"><br><br>
 
-
+# Step 4 <br>
+## Create and Configure API trigger
+<br>
+1. Click on <b>+–> API –> New API Trigger.</b><br><img src="./images/10.png"><br><br>
+2. Enter the name as <b>Sales Order Trigger</b>.<br>
+<img src="./images/11.png"><br><br>
+3. Choose <b>Inputs</b>. Then choose <b>Configure</b> to configure inputs.<br>
+<img src="./images/12.png"><br><br>
+4. In the <b>Configure Process Inputs</b> window, choose <b>Add Input</b> to add parameters.<br>
+Add the following parameter
+<table>
+  <tr>
+    <th><b>Name</b></th>
+    <th><b>Type</b></th>
+  </tr>
+  <tr>
+    <td>salesorderdetails</td>
+    <td>SalesOrder</td>
+  </tr>
+</table><br><b>Apply</b> changes.<br>
+<img src="./images/13.png"><br><br>
+5.<b>Save</b>the project.
 
 
 
