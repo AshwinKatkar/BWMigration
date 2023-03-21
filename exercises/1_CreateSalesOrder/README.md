@@ -1,9 +1,5 @@
 ### Table of Contents
-<<<<<<< Updated upstream
-[hi]
-
-- [Create a business process projects](#project)
-- [Create a business process projects](#project)
+- [Create a business process project](#project)
 - [Create a business process](#process)
 - [Create an Data Type](#data)
 - [Create and Configure Approval form](#aprrovalform)
@@ -22,14 +18,14 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 
 ## Create a business process project <a name="process"></a>
-### Step 1
+
 1. From [SAP Build Lobby](https://da160-96ork4sc-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby), click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
 
    | Username | Password    |
     | :------------- | :------------- |
     | AD160_XXX <br> where XXX is the user number <br> like AD160_000, AD160_001 etc.       | Acce$$teched22     |
     
-<br>![<b>1.</b>In the <b>Lobby</b>, choose <b>Create</b>.]<br>The lobby is a central page for creating, accessing, and managing your projects in SAP Build. You can access business application processes, company configured templates, and other resources for your end-to-end business process.has context menu(C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\1.png)
+<br>![<b>1.</b>In the <b>Lobby</b>, choose <b>Create</b>.]<br>The lobby is a central page for creating, accessing, and managing your projects in SAP Build. You can access business application processes, company configured templates, and other resources for your end-to-end business process.has context menu(./images/1.png)
 <br>![<b>2.</b> Pick <b>build an Automated Process</b>](C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\2.png)
 <br>![<b>3.</b> Select <b>Buisness Process</b>]<br>Business Process Projects are a collection of skills in SAP Build Process Automation. Projects are part of the internal business processes of a company and are defined based on business scenarios. A project can contain a set of processes, forms, automations and decisions, which are reusable artifacts(C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\3.png)
 <br>![<b>4.</b> In the <b>Create a Buisness Process</b> dialog box, do the following:]<br>
@@ -37,69 +33,31 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
   <li>Enter a <b>Project Name:</b> Sales Orders Management.</li>
   <li>Enter a <b>Short Description:</b> Sales Orders Management Project.</li>
   <li>Choose <b>Create</b></li>
-</ul>(C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\4.png)
+</ul>(C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\3.png)
 
-## Create a business process project 
-### Step 2
+## Create a business process 
 
-[1. A new tab opens with the newly created project.]<br>
-[2. In the <b>Create Process</b> dialog box,provide the following:]
-ul>
-  <li>Enter a <b> Name:</b>Order Processing.</li>
-  <li>Enter a <b>Description</b>for your process:A process to handle sales orders.</li>
-  <li>Choose <b>Create</b></li>
-</ul><br>
-Inside a project, you can create a process. This process is equivalent to a workflow in any business scenario. You can create this process from different skills such as forms, decisions, automations.(C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\5.png)<br>
-The form identifier is auto-filled.
+1. A new tab opens with the newly created project.<br>
+2. In the <b>Create Process</b> dialog box, provide the following:
+<ul>
+  <li>Enter a <b>Name: Order Processing</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
 
-## Create an Data Type
 
-[1.Click on +->**Create**–>**DataType** .](C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\6.png)
-[2. Create a datatype <b>Sales Order.</b>](C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\7.png)
-[3.Click on <b>New Field</b> to add new fields to the datatype <b>Sales Order.</b>](C:\Users\PC World\Documents\GitHub\SAPBuild-Workshop\exercises\1_CreateSalesOrder\images\8.png)
-[4.Repeat the process to add all the fields of the type as shown below.]<br>
-<table>
-  <tr>
-    <th><b>Field Name</b></th>
-    <th><b>Type</b></th>
-  </tr>
-  <tr>
-    <td>material</td>
-    <td>String</td>
-  </tr>
-  <tr>
-    <td>orderAmount</td>
-    <td>Number</td>
-  </tr>
-  <tr>
-    <td>shipToParty</td>
-    <td>String</td>
-  </tr>
-  <tr>
-    <td>salesOrderType</td>
-    <td>String</td>
-  </tr>
-  <tr>
-    <td>salesOrganisation</td>
-    <td>String</td>
-  </tr>
-  <tr>
-    <td>distributionChannel</td>
-    <td>String</td>
-  </tr>
-  <tr>
-    <td>shippingCountry</td>
-    <td>Stringr</td>
-  </tr>
-  <tr>
-    <td>expectedDeleiveryDate</td>
-    <td>Date</td>
-  </tr>
-  <tr>
-    <td>division</td>
-    <td>String</td>
-  </tr>
-</table>
+
+
+
+
+
+
+
+
+
+
+2. Under <b>Project Name</b>, enter <b><i>"Invoice AD160-XXX"</b></i>, replace XXX with your user ID. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
+<br><br>![Name the project](images/01c.png)
 
 
 ## Create UI <a name="data"></a>
