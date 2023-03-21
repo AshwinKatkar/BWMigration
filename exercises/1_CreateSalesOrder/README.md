@@ -16,7 +16,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 ![Scenario](images/scenario_appgyver.png)
 
-
+# Step 1 <br>
 ## Create a business process project <a name="process"></a>
 
 1. From [SAP Build Lobby](https://da160-96ork4sc-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby), click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
@@ -35,15 +35,75 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
   <li>Choose <b>Create</b></li>
 </ul><img src="./images/4.png"><br>
 
-## Create a business process 
+# Step 2 <br>
+## Create a business process <br>
 
 1. A new tab opens with the newly created project.<br>
 2. In the <b>Create Process</b> dialog box, provide the following:
 <ul>
-  <li>Enter a <b>Name: Order Processing</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
+  <li>Enter a  <b>Name: Order Processing</li>
+  <li>Enter a <b>Description</b>for your process:A process to handle sales orders.</li>
+  <li>Choose Create</li>
+</ul><br><br>
+Inside a project, you can create a process. This process is equivalent to a workflow in any business scenario. You can create this process from different skills such as forms, decisions, automations.<img src="./images/5.png"><br>The form <b>Identifier</b>field is auto-filled.
+
+# Step 3 <br>
+##  Create an Data Type
+
+1. Click on +->**Create**–>**DataType** .<br>
+<img src="./images/6.png"><br><br>
+2. Create a datatype <b>Sales Order</b><br>
+<img src="./images/7.png"><br><br>
+3. Click on <b>New Field</b> to add new fields to the datatype <b>Sales Order</b>.
+<img src="./images/8.png"><br><br>
+4. Repeat the process to add all the fields of the type as shown below.
+<table>
+  <tr>
+    <th><b>Field Name</b></th>
+    <th><b>Type</b></th>
+  </tr>
+  <tr>
+    <td>material</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>orderAmount</td>
+    <td>Number</td>
+  </tr>
+  <tr>
+    <td>shipToParty</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>salesOrderType</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>salesOrganisation</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>distributionChannel</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>shippingCountry</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>expectedDeliveryDate</td>
+    <td>Date</td>
+  </tr>
+  <tr>
+    <td>division</td>
+    <td>String</td>
+  </tr>
+</table>
+  Your final data type looks as below.<br>
+  <img src="./images/9.png"><br><br>
+
+
+
 
 
 
