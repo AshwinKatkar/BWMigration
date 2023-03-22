@@ -17,7 +17,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 ![Scenario](images/scenario_appgyver.png)
 
 # Step 1 <br>
-## Create a business process project <a name="process"></a>
+## <p style="color:blue;">Create a business process</p> project <a name="process"></a>
 
 1. From [SAP Build Lobby](https://da160-96ork4sc-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby), click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
 
@@ -424,9 +424,6 @@ With this process condition, only the sales order above a specific amount will b
 <b>Save</b> your work.<br>
 
 This completes the process design with condition criteria that will decide what process flow is executed and whether there will be an auto-approval or a one-step approval route.<br>
-
-
-
 
 
 
