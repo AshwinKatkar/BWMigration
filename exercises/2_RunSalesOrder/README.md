@@ -78,20 +78,20 @@ You payload should like below after providing values to the fields.<br><br> </br
 <table>
 <tr>
 <th>```JSON<br>
- &nbsp;{<br>
- &nbsp;&nbsp;&nbsp;"salesorderdetails": <br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
-                    "material": "Laptop",<br>
-                    "orderAmount": 900000,<br>
-                    "shipToParty": "ABCD",<br>
-                    "salesOrderType": "01",<br>
-                    "salesOrganisation": "01",<br>
-                    "distributionChannel": "01",<br>
-                    "shippingCountry": "India",<br>
-                    "expectedDeliveryDate": "2023-05-08",<br>
-                    "division": "01"<br>
-                }<br>
-        }<br>    
+ {<br>
+"salesorderdetails": <br>
+ {<br>
+  "material": "Laptop",<br>
+  "orderAmount": 900000,<br>
+  "shipToParty": "ABCD",<br>
+  "salesOrderType": "01",<br>
+  "salesOrganisation": "01",<br>
+  "distributionChannel": "01",<br>
+  "shippingCountry": "India",<br>
+  "expectedDeliveryDate": "2023-05-08",<br>
+  "division": "01"<br>
+  }<br>
+}<br>    
 
         ```</th>
 </tr>
