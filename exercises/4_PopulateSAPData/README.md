@@ -18,12 +18,16 @@ A data resource defines a connection to a backend, and when executed, will bring
 
 1. Go to the **Data** tab, and the **Add Integration**.
 ![Image](images/data-new.png)
+
 2. Click **BTP Destinations**.
 ![Image](images/data-destinations.png)
+
 3. Select your ES5 destination.
 ![Image](images/data-es5-dest.png)
+
 4. Click **Install Integration**.
 ![Image](images/data-add-integration.png)
+
  Select the ```Product``` entity on the left, and click **Enable Data Entity** on the right.
  ![Image](images/data-enable-entity.png)
 
@@ -34,19 +38,24 @@ After retrieving the data, we need a place to put it,fields.
 
 1. Click **UI Canvas**, and then click **Variables.**
  ![Image](images/data-var-open.png)
+
 2. On the left, click **Data Variables**
    Then click **Add Data Variable**and select ````Product````.
  ![Image](images/data-var-add.png)
-3 Click on the new variableand open the logic pane by click on **Create sales order** at the bottom of the page.
+
+3. Click on the new variableand open the logic pane by click on **Create sales order** at the bottom of the page.
  ![Image](images/data-var-logic.png)
 
 4. Click on the **Delay** flow function, and delete it by clicking the **X**.
  ![Image](images/data-var-delete.png)
+
 5. Click on the new variable again, and on the right-side of the page, go to **Paging** and click on the **X**, and then click **Object with properties**.
  ![Image](images/data-var-page.png)
+
 For **Page size**, click the **X**, select **Static number**, and change the number to ````10````.
 For **Include total count**, click the **X**, select **Static true/false**, and change the value to ````True````.
  ![Image](images/data-var-page2.png)
+
 Click **Save**.
 
 6. Click **Save (upper right**).
@@ -67,6 +76,7 @@ Click **Save**.
 3. Click on the dropdown box, and change the following properties.
 
  ![Image](images/dropdown-properties.png)
+ 
 | Field  | Value |
 | ------------- | ------------- |
 | Label text  | Delete ``` Dropdown label ```  |
