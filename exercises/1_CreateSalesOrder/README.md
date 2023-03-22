@@ -258,16 +258,16 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
       <li>Choose <b>Duplicate</li>
   </ul>
 <br><img src="./images/26.png"><br><br>
-2. In the duplicate artifact pop-up window change the name to <b>Order Rejection Notification</b> and select <b>Duplicate</b>.
+2. In the duplicate artifact pop-up window change the name to <b>Order Rejection Notification</b> and select <b>Duplicate</b>.<br>
 <br><img src="./images/27.png"><br><br>
-3. The form is automatically opened in the form builder. Change the order rejection form in the form builder to reflect the data for rejection case.<br>
+3. The form is automatically opened in the form builder. Change the order rejection form in the form builder to reflect the data for rejection case.<br><br>
 <table>
   <tr>
     <th><b>Form Fields</b></th>
     <th><b>Field Settings with label</b></th>
   </tr>
   <tr>
-     <td>Headline 1</td>
+    <td>Headline 1</td>
     <td>Order Rejection</td>
   </tr>
    <tr>
