@@ -416,7 +416,7 @@ With this process condition, only the sales order above a specific amount will b
   </tr>
   </table>
  <br><img src="./images/42.png"><br><br> 
- 8. Connect the outgoing flow of the auto-approval form to the <b>End</b> activity.<br><img src="./images/43.png"><br><br> 
+ 8. Connect the outgoing flow of the auto-approval form to the <b>End</b> activity.<br><br><img src="./images/43.png"><br><br> 
 
 # Step 10<br>
 ## Save the Project<br><br>
