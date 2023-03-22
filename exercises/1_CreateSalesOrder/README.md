@@ -124,8 +124,8 @@ Add the following parameter<br>
     <td>SalesOrder</td>
   </tr>
 </table><br><b>Apply</b> changes.<br><br>
-<img src="./images/13.png"><br><br>
-5.<b>Save</b> the project.<br>
+<img src="./images/13.png"><br>
+5.<b> Save</b> the project.<br>
 
 # Step 5 <br>
 ## Create and Configure Approval form
@@ -190,7 +190,7 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
 
 # Step 6 <br>
 ## Create and Configure Order Approval Notification form
-<br><br>
+<br>
 1. Click on +–>**Forms**–>**New Form**.<br><br>
 <img src="./images/20.png"><br><br>
 2. Enter the name as <b>Order Confirmation Form.</b><br><br><img src="./images/21.png"><br><br>
@@ -238,7 +238,7 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
     <td></td>
   </tr>
   </table><br><img src="./images/23.png"><br><br>
-  5. <b>Save</b> the form.<br>
+  5. <b>Save</b> the form.<br><br>
   6. Click on the <b>Order Approval Form</b> and configure the <b>Subject</b> and <b>Recipients.</b><br>
   <ul>
       <li>Enter <b>Your Order</b></li>
@@ -255,7 +255,7 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
 1. To add the new rejection form, you will use the <b>Duplicate</b> feature. Select the <b>Overview.</b>
 <ul>
       <li>Find <b>Order Confirmation Form</b>under the Artifacts section and select three dots (**…**).</li>
-      <li>Choose <b>Duplicate</li>
+      <li>Choose <b>Duplicate</b></li>
   </ul>
 <br><img src="./images/26.png"><br><br>
 2. In the duplicate artifact pop-up window change the name to <b>Order Rejection Notification</b> and select <b>Duplicate</b>.<br>
@@ -277,7 +277,7 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
   4. <b>Save</b> the form.<br>
   5. Go back to the process builder and add the order rejection notification form to the process. Select <b>Approval Form</b> and choose + option for the <b>Reject.</b> Choose <b>Forms</b> and select <b>Order Rejection Form.</b>
 <br><img src="./images/29.png"><br><br>
-  6. Configure the order rejection form. In the General section configure in the <b>Subject</b> box:
+  6. Configure the order rejection form. In the General section configure in the <b>Subject</b> box:<br>
   <ul>
       <li>Enter <b>Your Order</b> </li>
       <li>Select <b>Order Number</b> from the Order Processing Form</li>
