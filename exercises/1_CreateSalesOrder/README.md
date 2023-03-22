@@ -1,4 +1,5 @@
-### Table of Contents
+## Table of Contents
+
 - [Create a business process project](#project)
 - [Create a business process](#process)
 - [Create an Data Type](#data)
