@@ -27,7 +27,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
     
 <br><b>1.</b>In the <b>Lobby</b>, choose <b>Create</b>.<br><br>The lobby is a central page for creating, accessing, and managing your projects in SAP Build. You can access business application processes, company configured templates, and other resources for your end-to-end business process.has context menu.<br><br><img src="./images/1.png"><br>
 <br><b>2.</b> Pick <b>build an Automated Process</b><br><img src="./images/2.png"><br>
-<br><b>3.</b> Select <b>Buisness Process</b><br><br>Business Process Projects are a collection of skills in SAP Build Process Automation. Projects are part of the internal business processes of a company and are defined based on business scenarios. A project can contain a set of processes, forms, automations and decisions, which are reusable artifacts<img src="./images/3.png"><br>
+<br><b>3.</b> Select <b>Buisness Process</b><br><br>Business Process Projects are a collection of skills in SAP Build Process Automation. Projects are part of the internal business processes of a company and are defined based on business scenarios. A project can contain a set of processes, forms, automations and decisions, which are reusable artifacts<br><img src="./images/3.png"><br>
 <br><b>4.</b> In the <b>Create a Buisness Process</b> dialog box, do the following:<br>
 <ul>
   <li>Enter a <b>Project Name:</b> Sales Orders Management.</li>
@@ -41,12 +41,13 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 1. A new tab opens with the newly created project.<br>
 2. In the <b>Create Process</b> dialog box, provide the following:
 <ul>
-  <li>Enter a  <b>Name: Order Processing</li>
-  <li>Enter a <b>Description</b>for your process:A process to handle sales orders.</li>
-  <li>Choose Create</li>
+  <li>Enter a  <b>Name: Order Processing</b></li>
+  <li>Enter a <b>Description</b> for your process:A process to handle sales orders.</li>
+  <li>Choose <b>Create</b></li>
 </ul><br>
-Inside a project, you can create a process. This process is equivalent to a workflow in any business scenario. You can create this process from different skills such as forms, decisions, automations.<br>
-<img src="./images/5.png"><br>The form <b>Identifier</b>field is auto-filled.
+Inside a project, you can create a process. This process is equivalent to a workflow in any business scenario. You can create this process from different skills such as forms, decisions, automations.<br><br>
+<img src="./images/5.png"><br>
+The form <b>Identifier</b>field is auto-filled.
 
 # Step 3 <br>
 ##  Create an Data Type
