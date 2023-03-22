@@ -66,7 +66,7 @@ Click **Save**.
 
 3. Click on the dropdown box, and change the following properties.
 
- ![Image](dropdown-properties.png)
+ ![Image](images/dropdown-properties.png)
 | Field  | Value |
 | ------------- | ------------- |
 | Label text  | Delete ``` Dropdown label ```  |
