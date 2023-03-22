@@ -63,13 +63,14 @@ Click **Save**.
   It should look like this.
 
    ![Image](images/dropdown-add-result.png)
+
 3. Click on the dropdown box, and change the following properties.
 
  ![Image](dropdown-properties.png)
 | Field  | Value |
 | ------------- | ------------- |
 | Label text  | Delete ``` Dropdown label ```  |
-| Option list  | Click the list of values icon, and set the binding to a formula, and set the formula to the following: ``` MAP(data.Products1, {label: item.Name, value: item.Id}) ```  |
+| Option list  | Click the list of values icon, and set the binding to a formula, and set the formula to the following: ``` MAP(data.Products1, {label: item.Name, value: item.Id}) ```|
 
 4. You will have to bind the dropdown field to the ```Trigger Workflow1 ``` data variable (as we did for the input field for material).
 
