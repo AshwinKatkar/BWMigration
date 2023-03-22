@@ -387,7 +387,7 @@ With this process condition, only the sales order above a specific amount will b
   </table><br>
   <img src="./images/40.png"><br><br>
   4. <b>Save</b> your work.<br><br>
-  5. Go back to the process builder and configure the auto approval form.
+  5. Go back to the process builder and configure the auto approval form.<br>
   6. Configure the <b>General section</b>. Under Subject:
   <ul>
   <li>Enter: Your order</li>
@@ -419,7 +419,7 @@ With this process condition, only the sales order above a specific amount will b
  8. Connect the outgoing flow of the auto-approval form to the <b>End</b> activity.<br><img src="./images/43.png"><br><br> 
 
 # Step 10<br>
-## <h1 style="color:blue"></h1>Save the Project<br><br>
+## Save the Project<br><br>
    
 <b>Save</b> your work.<br>
 
