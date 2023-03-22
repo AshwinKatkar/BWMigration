@@ -21,7 +21,7 @@ Version have x.y.z format where x is a major version number, y is minor and z is
 2. If you are releasing for the first time, then the version will start with 1.0.0. Next time you release, the version numbers will be automatically updated.<br>
  <img src="./images/2.png"> <br> </br>
 
-# Step 2 <br>
+#  Step 2 <br>
 ## Deploy released project <a name="deployproject"></a>
 <br>
 1.Once the project is released successfully, you will find a <b>Deploy</b> option on the top-right corner of the screen.<br> <br> </br>
