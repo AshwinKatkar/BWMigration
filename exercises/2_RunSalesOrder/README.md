@@ -121,7 +121,8 @@ In there, you will see all the running, erroneous and suspended process instance
  <img src="./images/13.png"> <br><br> </br>
   Notice the Recipients list. This is the same as configured in the General section of the Approval Form. The task will go into the inboxes of all the recipients. <br><br> </br>
 
-# Step 4 <br>
+
+# Step 5 <br>
 ## Accessing the tasks <a name="accessingtask"></a>
 <br>
 1. Tasks are the request for the users to participate in an approval or review process. These tasks appear in the<b> My Inbox </b>application shipped with <b>SAP Build</b>. User can claim, approve and reject the task from their inbox.
