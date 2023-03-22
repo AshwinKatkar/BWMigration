@@ -16,6 +16,7 @@ https://sapes5.sapdevcenter.com/sap/opu/odata/sap/EPM_REF_APPS_SHOP_SRV
 ## Create a data resource to ES5
 A data resource defines a connection to a backend, and when executed, will bring back the data we want.
 
+![Image](images/data-new.png)
 
 1. Go to the **Data** tab, and the **Add Integration**.
 2. Click **BTP Destinations**.
