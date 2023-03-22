@@ -21,7 +21,7 @@ Version have x.y.z format where x is a major version number, y is minor and z is
 2. If you are releasing for the first time, then the version will start with 1.0.0. Next time you release, the version numbers will be automatically updated.<br>
  <img src="./images/2.png"> <br> </br>
 
- # Step 2 <br>
+# Step 2 <br>
 ## Deploy released project <a name="deployproject"></a>
 <br>
 1.Once the project is released successfully, you will find a <b>Deploy</b> option on the top-right corner of the screen.<br> <br> </br>
@@ -36,7 +36,8 @@ Since we have created an <b>API trigger </b> in our process ,you can see <b>Sale
   <img src="./images/7.png"> <br> </br>
   You cannot edit released or deployed projects. To continue working on your project, you need to select the Editable option.<br> </br>
   You have successfully deployed your project. It is time to run the process and see the results.<br> </br>
-  # Step 3 <br>
+
+# Step 3 <br>
 ## Run business process <a name="businessprocess"></a>
 <br>
 1. Once you have successfully deployed the business process with an API trigger, you can view the API trigger in the Overview section under the tab Triggers. <br><br> </br>
@@ -99,7 +100,7 @@ In there, you will see all the running, erroneous and suspended process instance
  <img src="./images/13.png"> <br><br> </br>
   Notice the Recipients list. This is the same as configured in the General section of the Approval Form. The task will go into the inboxes of all the recipients. <br><br> </br>
 
-  # Step 4 <br>
+# Step 4 <br>
 ## Accessing the tasks <a name="accessingtask"></a>
 <br>
 1. Tasks are the request for the users to participate in an approval or review process. These tasks appear in the<b> My Inbox </b>application shipped with <b>SAP Build</b>. User can claim, approve and reject the task from their inbox.
@@ -117,4 +118,3 @@ In there, you will see all the running, erroneous and suspended process instance
 
 
 
->>>>>>> Stashed changes
