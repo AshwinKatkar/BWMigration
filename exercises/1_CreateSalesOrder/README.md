@@ -386,7 +386,7 @@ With this process condition, only the sales order above a specific amount will b
   </tr>
   </table><br>
   <img src="./images/40.png"><br><br>
-  4. <b>Save</b> your work.<br>
+  4. <b>Save</b> your work.<br><br>
   5. Go back to the process builder and configure the auto approval form.
   6. Configure the <b>General section</b>. Under Subject:
   <ul>
@@ -394,9 +394,9 @@ With this process condition, only the sales order above a specific amount will b
   <li>Choose:<b>Order Number</b> from Order Processing Form</li>
   <li>Enter:<b>has been successfully received</b> </li>
 </ul><br>
-   Under Recipients Enter your login credentials(emailID)<br>
+   Under Recipients Enter your login credentials (emailID)<br>
   <img src="./images/41.png"><br><br>
-  7. Configure the <b>Inputs</b> section.
+  7. Configure the <b>Inputs</b> section.<br>
 <table>
   <tr>
     <th><b>Form Input Fields</b></th>
@@ -421,7 +421,7 @@ With this process condition, only the sales order above a specific amount will b
 # Step 10<br>
 ## Save the Project<br><br>
    
-Save your work.<br>
+<b>Save</b> your work.<br>
 
 This completes the process design with condition criteria that will decide what process flow is executed and whether there will be an auto-approval or a one-step approval route.<br>
 
