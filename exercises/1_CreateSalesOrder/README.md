@@ -283,8 +283,8 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
       <li>Select <b>Order Number</b> from the Order Processing Form</li>
       <li>Enter <b>is rejected by the supplier</b></li>
   </ul><br>
-  7. Under Recipients Enter your login credentials(emailID)<br><img src="./images/30.png"><br><br>
-  8. Configure the <b>Inputs<br> section.<br>
+  7. Under Recipients Enter your login credentials(emailID)<br><br><img src="./images/30.png"><br><br>
+  8. Configure the <b>Inputs</b><br> section.<br>
   <table>
   <tr>
     <th><b>Form Input Fields</b></th>
@@ -308,7 +308,7 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
   </tr>
   </table><br>
   <br><img src="./images/31.png"><br><br>
-  9. Finally, connect the outgoing flow of the order rejection form to the <b>End</b> activity.
+  9. Finally, connect the outgoing flow of the order rejection form to the <b>End</b> activity.<br>
   <br><img src="./images/32.png"><br><br>
   10. <b>Save</b> your work.<br>
      With this you have completed the process design of your business process. You have experienced building a process in a completely no-code environment and with no technical know-how. You used the process builder to create a one-step approval process with the API trigger , approval form and notification forms.<br><br>
@@ -316,8 +316,8 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
 # Step 8<br>
 ## Create and Configure Process Condition<br><br>
 Once the process with forms is designed, define which process flow should run based on if/else condition criteria.<br>
-1. To add a condition to a process open the <b>Process Builder</b>. Choose + next to the Trigger. Select <b>Controls</b> then <b>Condition.</b><br><img src="./images/33.png"><br><br>
-2. To configure the condition, choose <b>Open Condition Editor.</b><br><img src="./images/34.png"><br>Process content will contain a list of attributes that have been defined in previous skills. For example: in the screenshot, you can see attributes from the API trigger . You will use this process content to configure different skills during business process modelling.<br>
+1. To add a condition to a process open the <b>Process Builder</b>. Choose + next to the Trigger. Select <b>Controls</b> then <b>Condition.</b><br><br><img src="./images/33.png"><br><br>
+2. To configure the condition, choose <b>Open Condition Editor.</b><br><br><img src="./images/34.png"><br>Process content will contain a list of attributes that have been defined in previous skills. For example: in the screenshot, you can see attributes from the API trigger . You will use this process content to configure different skills during business process modelling.<br>
 3.  Edit your branch condition:<br>
 <ul>
   <li>Set <b>Order Amount</b>from the process content</li>
@@ -325,24 +325,24 @@ Once the process with forms is designed, define which process flow should run ba
   <li>Enter <b> 100000</b>as the value</li>
   <li>Choose <b>Apply</b></li>
 </ul><br><img src="./images/35.png"><br><br>
-You have configured your <b>if</b> branch to: <b>if Order Amount is less than 100000.</b><br>
+You have configured your <b>if</b> branch to: <b>if Order Amount is less than 100000.</b><br><br>
 4. Link your <b>Default</b> branch to <b>Approval Form.</b>
 <br><img src="./images/36.png"><br><br>
-With this process condition, only the sales order above a specific amount will be sent for approval and the rest will be auto-approved.<br>
+With this process condition, only the sales order above a specific amount will be sent for approval and the rest will be auto-approved.<br><br>
 5. Decide the process flow if the condition criteria is met. First, you have to remove the connection from If-route to Approval Form and then create a new form to notify the requester of the auto-approval.
 <br><img src="./images/37.png"><br><br>
 
 # Step 9<br>
 ## Create and Configure Auto Approval Notification<br><br>
 
-1. To create the new form, add the <b>New Form</b> from the <b>If-route.</b><br><img src="./images/38.png"><br><br>
+1. To create the new form, add the <b>New Form</b> from the <b>If-route.</b><br><br><img src="./images/38.png"><br><br>
 2. In the Create Form window:<br>
 <ul>
   <li>Enter the Name:<b> Auto Approval Notification</b></li>
   <li>Enter a Description: <b>Notification form to inform auto approval of the sales order.</b></li>
   <li>Choose <b>Create</b></li>
 </ul><br><img src="./images/39.png"><br><br>
-3. Edit the form using <b>Edit Form</b> Button .Design the notification form, the same way as in the previous steps, to send another notification to the requester about auto-approval.Add <b>Layout fields:</b><br>
+3. Edit the form using <b>Edit Form</b> Button .Design the notification form, the same way as in the previous steps, to send another notification to the requester about auto-approval.Add <b>Layout fields:</b><br><br>
 <table>
   <tr>
     <th><b>Form Fields</b></th>
