@@ -46,9 +46,9 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 3. Click on an open area, and in the <b>Properties</b> tab, change the <b>Page Name</b> to <i>Create Sales Order.</i><br><br> ![Image](images/600.png) <br>
 
-4. Select the <b> Style </b> tab. <br><br>![input component](images/700.png) <br>
+4. Select the <b> Style </b> tab. <br><br>![Image](images/700.png) <br>
 
-5. Click the <b> Background Color </b> (App Background), and then select New Palette.<br><br>![input properties]![Image](images/800.png) <br>
+5. Click the <b> Background Color </b> (App Background), and then select New Palette.<br><br>![Image](images/800.png) <br>
 
 6. For the color, enter _#F3D6A0_, name the color _SAP Orange Light_, and click <b> Save.</b><br>
 
@@ -224,7 +224,7 @@ Click **Add a value**, and add the following key-value pair:<br>
 3. Enter values for the fields (really, you only need to enter an order amount), and then scroll down and click **Run Test**. <br>
    ![Images](images/2700.png)
 
-**IMPORTANT**: Date fields must be in the format of *2022-12-25* and the order amount must be a number.<br><br>
+**IMPORTANT**: Date fields must be in the format of _2022-12-25_ and the order amount must be a number.<br><br>
 If all works **OK**, you will get a **201** status code and a response with information about the process instance you just triggered, something like this: <br><br>
 Javascript: <br><br>
 {
@@ -349,16 +349,15 @@ You can also check the Inbox to see the forms were created and the values proper
     <td><i>2023-03-31</i ></td>
   </tr>
   </table> <br>
-5.  Click <b>Get Approval.</b> <br>
+5. Click <b>Get Approval.</b> <br>
    You process should be triggered and require approval (since the amount is 1000 or above). <br>
    You should see the toast message indicating the workflow was triggered, and with the process instance ID. <br>
 
-   ![Image](images/3011.png)<br>
-   You can also see the results of the call in SAP Build Process Automation. <br>
-   Go to the Monitor tab, then Process and Workflow Instances. The first one should be the one you just triggered.<br>
-   You can see the new process instance.<br>
-   You can see the context, which is the values sent with the API. <br>
-   You can also see the execution log, which in this case ran the auto-approve task because the amount was below 100000.<br>
-   The context field in yellow are the ones that you entered via the UI.<br> ![Image](images/3012.png) <br>
-   You can also see that the process instance ID is the same: in the toast message and in the upper right of the Monitor tab.
-
+![Image](images/3011.png)<br>
+You can also see the results of the call in SAP Build Process Automation. <br>
+Go to the Monitor tab, then Process and Workflow Instances. The first one should be the one you just triggered.<br>
+You can see the new process instance.<br>
+You can see the context, which is the values sent with the API. <br>
+You can also see the execution log, which in this case ran the auto-approve task because the amount was below 100000.<br>
+The context field in yellow are the ones that you entered via the UI.<br> ![Image](images/3012.png) <br>
+You can also see that the process instance ID is the same: in the toast message and in the upper right of the Monitor tab.
