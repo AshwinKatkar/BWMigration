@@ -213,7 +213,6 @@ Click **Add a value**, and add the following key-value pair:<br>
 
 7.  Click **Save Data Resource** (bottom right). <br>
     Click **Save** (in the upper right to save all your changes to the project).<br>
-    ![](images/34.png)
 
 ## Test the trigger <a name="appnotification"></a>
 
@@ -354,12 +353,12 @@ You can also check the Inbox to see the forms were created and the values proper
    You process should be triggered and require approval (since the amount is 1000 or above). <br>
    You should see the toast message indicating the workflow was triggered, and with the process instance ID. <br>
 
-   ![Image](images/3011.png)
+   ![Image](images/3011.png)<br>
    You can also see the results of the call in SAP Build Process Automation. <br>
    Go to the Monitor tab, then Process and Workflow Instances. The first one should be the one you just triggered.<br>
    You can see the new process instance.<br>
    You can see the context, which is the values sent with the API. <br>
    You can also see the execution log, which in this case ran the auto-approve task because the amount was below 100000.<br>
-   The context field in yellow are the ones that you entered via the UI.<br> ![Image](images/3012.png)
+   The context field in yellow are the ones that you entered via the UI.<br> ![Image](images/3012.png) <br>
    You can also see that the process instance ID is the same: in the toast message and in the upper right of the Monitor tab.
 
