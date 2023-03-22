@@ -47,14 +47,14 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 </ul><br>
 Inside a project, you can create a process. This process is equivalent to a workflow in any business scenario. You can create this process from different skills such as forms, decisions, automations.<br><br>
 <img src="./images/5.png"><br>
-The form <b>Identifier</b>field is auto-filled.
+The form <b>Identifier</b> field is auto-filled.
 
 # Step 3 <br>
 ##  Create an Data Type
 
 1. Click on +->**Create**–>**DataType** .<br><br>
 <img src="./images/6.png"><br><br>
-2. Create a datatype <b>Sales Order</b><br>
+2. Create a datatype <b>Sales Order</b><br><br>
 <img src="./images/7.png"><br><br>
 3. Click on <b>New Field</b> to add new fields to the datatype <b>Sales Order.</b><br><br>
 <img src="./images/8.png"><br><br>
@@ -101,16 +101,16 @@ The form <b>Identifier</b>field is auto-filled.
     <td>String</td>
   </tr>
 </table><br>
-  Your final data type looks as below.<br>
+  Your final data type looks as below.<br><br>
   <img src="./images/9.png"><br><br>
 
 # Step 4 <br>
 ## Create and Configure API trigger
 <br>
-1. Click on <b>+–> API –> New API Trigger.</b><br><img src="./images/10.png"><br><br>
+1. Click on <b>+–> API –> New API Trigger.</b><br><br><img src="./images/10.png"><br><br>
 2. Enter the name as <b>Sales Order Trigger</b>.<br><br>
 <img src="./images/11.png"><br><br>
-3. Choose <b>Inputs</b>. Then choose <b>Configure</b> to configure inputs.<br>
+3. Choose <b>Inputs</b>. Then choose <b>Configure</b> to configure inputs.<br><br>
 <img src="./images/12.png"><br><br>
 4. In the <b>Configure Process Inputs</b> window, choose <b>Add Input</b> to add parameters.<br><br>
 Add the following parameter<br>
@@ -123,15 +123,15 @@ Add the following parameter<br>
     <td>salesorderdetails</td>
     <td>SalesOrder</td>
   </tr>
-</table><br><b>Apply</b> changes.<br>
+</table><br><b>Apply</b> changes.<br><br>
 <img src="./images/13.png"><br><br>
-5.<b>Save</b>the project.
+5.<b>Save</b> the project.<br>
 
 # Step 5 <br>
 ## Create and Configure Approval form
 <br><br>
-1. Click on <b>+–> Approval–> New Approval Form.</b><br><img src="./images/14.png"><br><br>
-2. Enter the name as <b>Approval Form.</b><br>
+1. Click on <b>+–> Approval–> New Approval Form.</b><br><br><img src="./images/14.png"><br><br>
+2. Enter the name as <b>Approval Form.</b><br><br>
 <img src="./images/15.png"><br><br>
 3. Click on <b>Edit form.</b><img src="./images/16.png"><br><br>
 4. Design the form by dragging and dropping the corresponding form elements as shown below.<br>
@@ -178,23 +178,23 @@ Add the following parameter<br>
   </tr>
 </table><br>
 <img src="./images/17.png"><br><br>
-5. <b>Save</b> the form<br>
+5. <b>Save</b> the form<br><br>
 6. Click on the <b>Approval Form</b> and configure the <b>Subject</b> and <b>Recipients.</b><br>
 <ul>
   <li>Enter <b>Please review</b></li>
   <li>Select <b>Material</b>from the sales order details</li>
 </ul><br>
-Enter your login credentials(emailID) in the <b>Recipients</b> section.<br>
+Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
 <img src="./images/18.png"><br><br>
-7. Configure the inputs of <b>Approval Form</b>.Navigate to Inputs and map the fields accordingly.<br><img src="./images/19.png"><br><br>
+7. Configure the inputs of <b>Approval Form </b>.    Navigate to Inputs and map the fields accordingly.<br><img src="./images/19.png"><br><br>
 
 # Step 6 <br>
 ## Create and Configure Order Approval Notification form
 <br><br>
-1. Click on +–>**Forms**–>**New Form**.<br>
+1. Click on +–>**Forms**–>**New Form**.<br><br>
 <img src="./images/20.png"><br><br>
-2. Enter the name as <b>Order Confirmation Form.</b><br><img src="./images/21.png"><br><br>
-3. Click on <b>Edit form</b><br><img src="./images/22.png"><br><br>
+2. Enter the name as <b>Order Confirmation Form.</b><br><br><img src="./images/21.png"><br><br>
+3. Click on <b>Edit form</b><br><br><img src="./images/22.png"><br><br>
 4. Design the form by dragging and dropping the corresponding Form elements as shown below.<br>
 <table>
   <tr>
@@ -238,15 +238,15 @@ Enter your login credentials(emailID) in the <b>Recipients</b> section.<br>
     <td></td>
   </tr>
   </table><br><img src="./images/23.png"><br><br>
-  5. <b>Save</b> the form.
+  5. <b>Save</b> the form.<br>
   6. Click on the <b>Order Approval Form</b> and configure the <b>Subject</b> and <b>Recipients.</b><br>
   <ul>
-      <li>Enter <b>Your Order</li>
-      <li>Select <b>Material</b>from the sales order details</li>
-      <li>Enter <b>has been approved.</li>
+      <li>Enter <b>Your Order</b></li>
+      <li>Select <b>Material</b>from the sales order details.</li>
+      <li>Enter <b>has been approved.</b></li>
   </ul><br>
-  Enter your login credentials(emailID) in the <br>Recipients</br> section.<br><img src="./images/24.png"><br><br>
-  7. Configure the inputs of <b>Order Approval Form.</b>Navigate to Inputs and map the fields accordingly.<br><img src="./images/25.png"><br><br>
+  Enter your login credentials (emailID) in the <b>Recipients</b> section.<br><img src="./images/24.png"><br><br>
+  7. Configure the inputs of <b> Order Approval Form.</b> Navigate to Inputs and map the fields accordingly.<br><img src="./images/25.png"><br><br>
 
 
 
