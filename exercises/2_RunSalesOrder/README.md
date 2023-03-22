@@ -78,9 +78,9 @@ You payload should like below after providing values to the fields.<br><br> </br
 <table>
 <tr>
 <th>```JSON<br>
-        {<br>
-                "salesorderdetails": <br>
-                {<br>
+ &nbsp;&nbsp;{<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;"salesorderdetails": <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
                     "material": "Laptop",<br>
                     "orderAmount": 900000,<br>
                     "shipToParty": "ABCD",<br>
@@ -96,7 +96,7 @@ You payload should like below after providing values to the fields.<br><br> </br
         ```</th>
 </tr>
 </table>
-<textarea id="salesorderdetails" name="salesorderdetails" rows="4" cols="50"> { "salesorderdetails": { "material": "Laptop", "orderAmount": 900000, "shipToParty": "ABCD", "salesOrderType": "01", "salesOrganisation": "01", "distributionChannel": "01", "shippingCountry": "India", "expectedDeliveryDate": "2023-05-08", "division": "01" } } </textarea><br></br>
+
  <img src="./images/10.png"> <br> </br>
  <ul>
   <li>Click on <b>Start New Instance and Close</b>.</li><br></br>
