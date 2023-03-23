@@ -42,7 +42,7 @@ In this exercise, you will build your app in SAP Build Apps to enter Sales Order
    <br><br>
    ![Image](images/400.png)
 
-## Create the sales order page <a name="process"></a>
+## Create the Sales Order Page <a name="process"></a>
 
 1. By default your new application contains a page with title and text fields. In this step, you will focus on turning this page into your app, including how to build a UI and stylize the UI elements. <br><br>
 
@@ -102,7 +102,7 @@ You need to enable SAP BTP authentication since you want to use SAP BTP destinat
 
 3.  Select <b> SAP BTP Authentication.</b> On the confirmation popup, click <b>OK</b>.<br>
 
-## Create data resource to SAP Build Process Automation <a name="approvalform"></a>
+## Create Data Resource to SAP Build Process Automation <a name="approvalform"></a>
 
 As part of setting up SAP Build Process Automation, you created a destination so you can make calls to the SAP Build Process Automation APIs, including the one that lets you trigger a workflow.
 <br><br>
@@ -218,7 +218,7 @@ Click **Add a value**, and add the following key-value pair:<br>
 7.  Click **Save Data Resource** (bottom right). <br>
     Click **Save** (in the upper right to save all your changes to the project).<br>
 
-## Test the trigger <a name="appnotification"></a>
+## Test the Trigger <a name="appnotification"></a>
 
 1. Open the data resource again by clicking it.<br>
    ![Images](images/2600.png)
@@ -255,7 +255,7 @@ You can go into the SAP Build Process Automation monitoring and see there the pr
 You can also check the Inbox to see the forms were created and the values properly passed into the workflow.<br>
 ![Images](images/3000.png)<br>
 
-## Create data variable <a name="rejnotification"></a>
+## Create Data Variable <a name="rejnotification"></a>
 
 1. Back on the UI canvas, select **Variables**.<br>
 
@@ -269,7 +269,7 @@ You can also check the Inbox to see the forms were created and the values proper
 
 5. Click **Save** (upper right).<br>
 
-## Bind data variable to UI elements <a name="processcondition"></a>
+## Bind Data Variable to UI elements <a name="processcondition"></a>
 
 1. Go back to **View** so you can see the UI canvas.<br>
 
@@ -293,7 +293,7 @@ You can also check the Inbox to see the forms were created and the values proper
 
 7. Click **Save** (upper right).
 
-## Add logic to trigger workflow <a name="autoapproval"></a>
+## Add logic to Trigger Workflow <a name="autoapproval"></a>
 
 1. Click on the **Get Approval** button, and open the logic canvas by clicking **Add logic to Button1** at the bottom right.<br>
    ![Image](images/3004.png)<br>
