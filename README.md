@@ -13,7 +13,7 @@ This session covers how to build apps, processes with workflows, and then trigge
 Scenario: Sales Order Approval with SAP Build Apps & SAP Build Process Automation
 
 
-  ![Overview](exercises/4_TriggerProcess/images/Overview.png)
+  ![Overview](exercises/1_CreateSalesOrder/images/sap_build_architecture.png)
 
 ## Requirements
 
