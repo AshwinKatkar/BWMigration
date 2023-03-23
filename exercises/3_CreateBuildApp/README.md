@@ -213,7 +213,7 @@ Click **Add a value**, and add the following key-value pair:<br>
     " ENCODE_JSON({ "definitionId": "<your definition ID>", "context": query.record })" <br><br>
     Click <b>Save </b>twice.
 
-        ![](images/33.png)
+    ![Images](images/33.png)
 
 7.  Click **Save Data Resource** (bottom right). <br>
     Click **Save** (in the upper right to save all your changes to the project).<br>
