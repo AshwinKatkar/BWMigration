@@ -13,7 +13,14 @@
 # Overview <a name="project"></a>
 
 
-In this exercise, you will build your app in SAP Build Apps to upload invoices.
+In this exercise, you will build your busines process to handle workflow approval.
+This sample process includes the following:
+
+1. An approval step to decide for approval or rejection of the sales order.
+
+2. Confirmation and rejection forms to notify the requester about the decision.
+
+3. Auto approaval based on sales order amount.
 
 ![Scenario](images/sap_build_architecture02.png)
 
