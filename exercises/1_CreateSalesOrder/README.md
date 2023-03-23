@@ -1,8 +1,9 @@
 ## Table of Contents
-
+- [Overview](#overview)
 - [Create a business process project](#project)
 - [Create a business process](#process)
 - [Create an Data Type](#data)
+- [Create and Configure API trigger](#apitrigger)
 - [Create and Configure Approval form](#aprrovalform)
 - [Create and Configure Order Approval Notification form](#appnotification)
 - [Create and configure Order Rejection Notification Form](#rejnotification)
@@ -10,7 +11,7 @@
 - [Create and Configure Auto Approval Notification](#autoapproval)
 - [Save the Project](#save)
 
-# Overview <a name="project"></a>
+# Overview <a name="overview"></a>
 
 
 In this exercise, you will build your busines process to handle workflow approval.
@@ -25,7 +26,7 @@ This sample process includes the following:
 ![Scenario](images/sap_build_architecture02.png)
 
 # Step 1 <br>
-## Create a business process project <a name="process"></a>
+## Create a business process project <a name="project"></a>
 
 1. From [SAP Build Lobby](https://workshop-sap-build-9w562br3.eu10.build.cloud.sap/lobby), click on <b>Create</b> and then select <b>Build Process Automation Project</b>.<br>
 
@@ -44,7 +45,7 @@ This sample process includes the following:
 </ul><img src="./images/4.png"><br>
 
 # Step 2 <br>
-## Create a business process <br>
+## Create a business process <a name="process"></a>
 
 1. A new tab opens with the newly created project.<br>
 2. In the <b>Create Process</b> dialog box, provide the following:
@@ -58,7 +59,7 @@ Inside a project, you can create a process. This process is equivalent to a work
 The form <b>Identifier</b> field is auto-filled.
 
 # Step 3 <br>
-##  Create an Data Type
+##  Create an Data Type <a name="data"></a>
 
 1. Click on +->**Create**–>**DataType** .<br><br>
 <img src="./images/6.png"><br><br>
@@ -113,7 +114,7 @@ The form <b>Identifier</b> field is auto-filled.
   <img src="./images/9.png"><br><br>
 
 # Step 4 <br>
-## Create and Configure API trigger
+## Create and Configure API trigger <a name="apitrigger"></a>
 <br>
 1. Click on <b>+–> API –> New API Trigger.</b><br><br><img src="./images/10.png"><br><br>
 2. Enter the name as <b>Sales Order Trigger</b>.<br><br>
@@ -136,7 +137,7 @@ Add the following parameter<br>
 5.<b> Save</b> the project.<br>
 
 # Step 5 <br>
-## Create and Configure Approval form
+## Create and Configure Approval form <a name="aprrovalform"></a>
 <br><br>
 1. Click on <b>+–> Approval–> New Approval Form.</b><br><br><img src="./images/14.png"><br><br>
 2. Enter the name as <b>Approval Form.</b><br><br>
@@ -197,7 +198,7 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
 7. Configure the inputs of <b>Approval Form </b>.    Navigate to Inputs and map the fields accordingly.<br><img src="./images/19.png"><br><br>
 
 # Step 6 <br>
-## Create and Configure Order Approval Notification form
+## Create and Configure Order Approval Notification form <a name="appnotification"></a>
 <br>
 1. Click on +–>**Forms**–>**New Form**.<br><br>
 <img src="./images/20.png"><br><br>
@@ -259,7 +260,7 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
 
 
 # Step 7<br>
-## Create and Configure Order Rejection Notification Form<br><br>
+## Create and Configure Order Rejection Notification Form <a name="rejnotification"></a>
 1. To add the new rejection form, you will use the <b>Duplicate</b> feature. Select the <b>Overview.</b>
 <ul>
       <li>Find <b>Order Confirmation Form</b>under the Artifacts section and select three dots (**…**).</li>
@@ -322,7 +323,7 @@ Enter your login credentials (emailID) in the <b>Recipients</b> section.<br>
      With this you have completed the process design of your business process. You have experienced building a process in a completely no-code environment and with no technical know-how. You used the process builder to create a one-step approval process with the API trigger , approval form and notification forms.<br><br>
 
 # Step 8<br>
-## Create and Configure Process Condition<br><br>
+## Create and Configure Process Condition <a name="processcondi"></a>
 Once the process with forms is designed, define which process flow should run based on if/else condition criteria.<br>
 1. To add a condition to a process open the <b>Process Builder</b>. Choose + next to the Trigger. Select <b>Controls</b> then <b>Condition.</b><br><br><img src="./images/33.png"><br><br>
 2. To configure the condition, choose <b>Open Condition Editor.</b><br><br><img src="./images/34.png"><br>Process content will contain a list of attributes that have been defined in previous skills. For example: in the screenshot, you can see attributes from the API trigger . You will use this process content to configure different skills during business process modelling.<br>
@@ -340,8 +341,8 @@ With this process condition, only the sales order above a specific amount will b
 5. Decide the process flow if the condition criteria is met. First, you have to remove the connection from If-route to Approval Form and then create a new form to notify the requester of the auto-approval.
 <br><img src="./images/37.png"><br><br>
 
-# Step 9<br>
-## Create and Configure Auto Approval Notification<br><br>
+# Step 9 <br>
+## Create and Configure Auto Approval Notification <a name="autoapproval"></a>
 
 1. To create the new form, add the <b>New Form</b> from the <b>If-route.</b><br><br><img src="./images/38.png"><br><br>
 2. In the Create Form window:<br>
@@ -426,8 +427,8 @@ With this process condition, only the sales order above a specific amount will b
  <br><img src="./images/42.png"><br><br> 
  8. Connect the outgoing flow of the auto-approval form to the <b>End</b> activity.<br><br><img src="./images/43.png"><br><br> 
 
-# Step 10<br>
-## Save the Project<br><br>
+# Step 10 <br>
+## Save the Project <a name="save"></a>
    
 <b>Save</b> your work.<br>
 
