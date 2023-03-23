@@ -18,14 +18,14 @@ In this exercise, you will build your app in SAP Build Apps to enter Sales Order
 
 ![Image](images/sap_build_architecture01.png)
 
-## Create a new app project <a name="project"></a>
+## Create a Build App Project <a name="project"></a>
 
 1. From [SAP Build Lobby](https://workshop-sap-build-9w562br3.eu10.build.cloud.sap/lobby), Go to the SAP Build lobby, and click on <b>Create</b>.<br>
 
    | Username | Password    |
     | :------------- | :------------- |
     | AD002_XXX <br> where XXX is the user number <br> like AD002_000, AD002_001 etc.       | Workshop@2022     |
-    
+
 <br>
 
 ![Image](images/100.png)
