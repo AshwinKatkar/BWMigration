@@ -1,7 +1,7 @@
 # In this exercise, you will build your app in SAP Build Apps to upload invoice.
 
 ## Table of Contents
-
+- [Overview](#overview)
 - [Create a new app project ](#project)
 - [Create the sales order page](#process)
 - [Enable SAP BTP authentication](#data)
@@ -12,7 +12,7 @@
 - [Add logic to trigger workflow](#autoapproval)
 - [Run app](#save)
 
-# Overview <a name="project"></a>
+# Overview <a name="overview"></a>
 
 In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
