@@ -15,7 +15,7 @@
 
 In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
-![Scenario](images/sap_build_architecture01.png)
+![Scenario](images/sap_build_architecture02.png)
 
 # Step 1 <br>
 ## Create a business process project <a name="process"></a>
