@@ -32,7 +32,7 @@ This sample process includes the following:
 
    | Username | Password    |
     | :------------- | :------------- |
-    | AD002_XXX <br> where XXX is the user number <br> like AD002_000, AD002_001 etc.       | Workshop@2022     |
+    | AD002_XXX <br> where XXX is the user number <br> like AD002_000, AD002_001 etc.       | Workshop@2023     |
     
 <br><b>1.</b>In the <b>Lobby</b>, choose <b>Create</b>.<br><br>The lobby is a central page for creating, accessing, and managing your projects in SAP Build. You can access business application processes, company configured templates, and other resources for your end-to-end business process.has context menu.<br><br><img src="./images/1.png"><br>
 <br><b>2.</b> Pick <b>build an Automated Process</b><br><img src="./images/2.png"><br>

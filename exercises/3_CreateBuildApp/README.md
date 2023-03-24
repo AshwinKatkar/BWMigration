@@ -24,7 +24,7 @@ In this exercise, you will build your app in SAP Build Apps to enter Sales Order
 
    | Username | Password    |
     | :------------- | :------------- |
-    | AD002_XXX <br> where XXX is the user number <br> like AD002_000, AD002_001 etc.       | Workshop@2022     |
+    | AD002_XXX <br> where XXX is the user number <br> like AD002_000, AD002_001 etc.       | Workshop@2023     |
 
 <br>
 
